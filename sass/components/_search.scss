@@ -1,0 +1,21 @@
+.search-icon {
+    color: $color-primary-dark; 
+    font-size: 3rem; 
+    position: absolute;
+    top: 4%;
+    right: 4%;
+    opacity: .7;
+    transition: all .2s;
+    text-shadow: 0 .2rem .6rem rgba($color-primary-dark, .7);
+
+    &:hover {
+        opacity: 1;
+        @include pop-out;
+        text-shadow: 0 .4rem 1rem rgba($color-primary-dark, .7);
+    }
+
+    &:active {
+        @include press-in;
+        text-shadow: 0 .3rem .8rem rgba($color-primary-dark, .7);
+    }
+}
