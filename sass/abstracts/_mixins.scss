@@ -5,3 +5,11 @@
 @mixin press-in {
     transform: translateY(-1px) scale(1.05);
 }
+
+@mixin clearfix {
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}

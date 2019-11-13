@@ -4,8 +4,10 @@
 @import "base/base";
 @import "base/typography";
 
+@import "components/filters";
 @import "components/search";
 
+@import "layout/grid";
 @import "layout/header";
 
 @import "pages/home";
