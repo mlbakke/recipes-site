@@ -12,3 +12,41 @@ html {
 
 body {
   box-sizing: border-box; }
+
+.header__logo-text {
+  font-family: 'Cookie', cursive;
+  font-size: 15rem;
+  display: inline-block;
+  background-image: url(../../images/dan-gold-4-veggies.jpg);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text; }
+
+.search-icon {
+  color: #45949C;
+  font-size: 3rem;
+  position: absolute;
+  top: 4%;
+  right: 4%;
+  opacity: .7;
+  transition: all .2s;
+  text-shadow: 0 0.2rem 0.6rem rgba(69, 148, 156, 0.7); }
+  .search-icon:hover {
+    opacity: 1;
+    transform: translateY(-2px) scale(1.1);
+    text-shadow: 0 0.4rem 1rem rgba(69, 148, 156, 0.7); }
+  .search-icon:active {
+    transform: translateY(-1px) scale(1.05);
+    text-shadow: 0 0.3rem 0.8rem rgba(69, 148, 156, 0.7); }
+
+.header {
+  position: relative;
+  height: 35vh;
+  background-color: #B0DAD5; }
+  .header__logo-text {
+    position: absolute;
+    top: 5%;
+    left: 10%; }
+  @media screen and (max-height: 510px) {
+    .header {
+      height: 45vh; } }

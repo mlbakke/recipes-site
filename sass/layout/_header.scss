@@ -1,0 +1,15 @@
+.header {
+    position: relative;
+    height: 35vh;
+    background-color: $color-primary-light;
+
+    &__logo-text {
+        position: absolute;
+        top: 5%;
+        left: 10%;
+    }
+
+    @media screen and (max-height: 510px) {
+        height: 45vh;
+    }
+}
