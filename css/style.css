@@ -11,7 +11,8 @@ html {
   font-size: 62.5%; }
 
 body {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  background-color: #EDF6F9; }
 
 .header__logo-text {
   font-family: 'Cookie', cursive;
