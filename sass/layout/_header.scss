@@ -1,6 +1,6 @@
 .header {
     position: relative;
-    height: 35vh;
+    height: 20rem;
     background-color: $color-primary-light;
 
     &__logo-text {
@@ -9,7 +9,10 @@
         left: 10%;
     }
 
-    @media screen and (max-height: 510px) {
-        height: 45vh;
+    @media screen and (max-width: 793px) {
+        height: 40rem;
+    }
+    @media screen and (max-width: 500px) {
+        height: 25rem;
     }
 }

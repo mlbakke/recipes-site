@@ -21,6 +21,9 @@ body {
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text; }
+  @media screen and (max-width: 500px) {
+    .header__logo-text {
+      font-size: 10rem; } }
 
 .search-icon {
   color: #45949C;
@@ -41,12 +44,15 @@ body {
 
 .header {
   position: relative;
-  height: 35vh;
+  height: 20rem;
   background-color: #B0DAD5; }
   .header__logo-text {
     position: absolute;
     top: 5%;
     left: 10%; }
-  @media screen and (max-height: 510px) {
+  @media screen and (max-width: 793px) {
     .header {
-      height: 45vh; } }
+      height: 40rem; } }
+  @media screen and (max-width: 500px) {
+    .header {
+      height: 25rem; } }
