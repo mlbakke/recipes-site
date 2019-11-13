@@ -1,2 +1,5 @@
 # recipes-site
-A website for food recipes built with Sass (SCSS)
+
+A landing page for a website with food recipes built with Sass (SCSS)
+
+Under construction.

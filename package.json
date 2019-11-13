@@ -1,0 +1,22 @@
+{
+  "name": "recipes-site",
+  "version": "1.0.0",
+  "description": "Landing page for a website with food recipes",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlbakke/recipes-site.git"
+  },
+  "author": "Martin Liland Bakke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mlbakke/recipes-site/issues"
+  },
+  "homepage": "https://github.com/mlbakke/recipes-site#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
