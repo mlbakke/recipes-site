@@ -36,12 +36,15 @@ body {
     .header__logo-text {
       font-size: 10rem; } }
 
-.heading-filters {
+.heading-secondary {
   font-size: 4rem;
   text-transform: uppercase;
   text-align: center; }
 
 .filter-name {
+  font-size: 1.5rem; }
+
+.recipe__name {
   font-size: 2rem; }
 
 .filter-box {

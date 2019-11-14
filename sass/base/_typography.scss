@@ -21,12 +21,18 @@ body {
     }
 }
 
-.heading-filters {
+.heading-secondary {
     font-size: 4rem;
     text-transform: uppercase;
     text-align: center;
 }
 
 .filter-name {
-    font-size: 2rem;
+    font-size: 1.5rem;
+}
+
+.recipe {
+    &__name{
+        font-size: 2rem;
+    }
 }
