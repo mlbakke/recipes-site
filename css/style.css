@@ -141,7 +141,8 @@ body {
 
 .row {
   max-width: 110rem;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-bottom: 10rem; }
   .row:not(:last-child) {
     margin-bottom: 5rem; }
   .row::after {
@@ -172,9 +173,9 @@ body {
     .header {
       height: 25rem; } }
 
-.section-filters {
-  margin-top: 10rem;
-  margin-bottom: 10rem; }
-
 .section-featured {
-  margin-top: 10rem; }
+  padding-top: 10rem; }
+
+.section-filters {
+  padding-top: 10rem;
+  margin-bottom: 10rem; }
