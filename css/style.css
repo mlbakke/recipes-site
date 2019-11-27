@@ -39,19 +39,72 @@ body {
 .heading-secondary {
   font-size: 4rem;
   text-transform: uppercase;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 4rem; }
 
 .filter-name {
   font-size: 1.5rem; }
 
-.recipe__name {
-  font-size: 2rem; }
+.recipe {
+  color: #EAE8FF; }
+  .recipe__name {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4), 2px 2px 4px rgba(0, 0, 0, 0.4); }
+  .recipe__features {
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); }
+
+.recipe {
+  position: relative;
+  height: 25rem; }
+  .recipe__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+  .recipe__text {
+    position: absolute;
+    width: 100%;
+    height: 7rem;
+    bottom: 0;
+    transition: all .3s ease-in; }
+  .recipe__name {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    transition: all .2s .1s ease-in; }
+  .recipe__features {
+    opacity: 0;
+    visibility: hidden;
+    transition: all .2s ease-out; }
+    .recipe__features--time {
+      position: absolute;
+      left: 1rem;
+      bottom: -2rem;
+      transition: all .3s ease-out; }
+    .recipe__features--difficulty {
+      position: absolute;
+      right: 1rem;
+      bottom: -2rem;
+      transition: all .3s ease-out; }
+  .recipe:hover .recipe__features {
+    visibility: visible;
+    opacity: 1; }
+    .recipe:hover .recipe__features--time {
+      transform: translateY(-3rem); }
+    .recipe:hover .recipe__features--difficulty {
+      transform: translateY(-3rem); }
+  .recipe:hover .recipe__name {
+    transform: translateY(-2rem); }
+  .recipe:hover .recipe__text {
+    background-color: rgba(65, 68, 68, 0.7); }
 
 .filter-box {
   border: 1px solid rgba(69, 148, 156, 0.5);
   border-radius: 1rem;
   padding-bottom: 1rem;
-  margin-top: 4rem;
   text-align: center;
   transition: all .3s;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 1px 2px 2px rgba(0, 0, 0, 0.12), 2px 4px 4px rgba(0, 0, 0, 0.12), 4px 8px 8px rgba(0, 0, 0, 0.12); }
@@ -115,6 +168,8 @@ body {
       height: 25rem; } }
 
 .section-filters {
-  max-width: 120rem;
-  margin: 0 auto;
-  padding: 5rem 0; }
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
+
+.section-featured {
+  margin-top: 10rem; }
