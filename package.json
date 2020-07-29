@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/mlbakke/recipes-site#readme",
   "devDependencies": {
-    "node-sass": "^4.13.1"
+    "node-sass": "^4.14.1"
   }
 }
